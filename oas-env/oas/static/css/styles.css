@@ -1,12 +1,40 @@
 
-        h1 {
-            text-align: center;
-        }
+       body{
+        background-color: black;
+       }
+        h1 { text-align: center;
+        margin-top:5% ;
+    color:cornsilk; }
         p {
-            text-align: center;
-        }
-        div {
-            text-align: center;
-        }
+             text-align: center;
+             margin-top: 1%;
+             margin-bottom: 40px;
+             color:cornsilk ; 
+         }
+.card-body{
+    background-color: black;
+    p{
+        margin-right: 100px;
+        margin-left: -1px;
+    }
+    h5{
+        color:wheat ;
+    }
+    a{
+        background-color: green;
+        border-color: aliceblue;
+    }
+   svg{
+    color: aliceblue;
+
+   }
+}
+.row{
+    justify-content: space-between;
+    margin-left: 30px;
+    row-gap: 15px;
+}
+
+
     
-    
+
