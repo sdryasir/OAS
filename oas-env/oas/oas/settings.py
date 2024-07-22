@@ -55,7 +55,11 @@ ROOT_URLCONF = 'oas.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [BASE_DIR, 'templates'],
+=======
+        'DIRS': [BASE_DIR , 'templates'],
+>>>>>>> 4641a47b30888055eaa0025d936e88102eefe015
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -116,7 +120,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / "static"]
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",

@@ -20,5 +20,9 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
     path('', views.index),
+=======
+    path('', views.home)
+>>>>>>> 4641a47b30888055eaa0025d936e88102eefe015
 ]
