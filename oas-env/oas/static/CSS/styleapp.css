@@ -2,6 +2,7 @@
 *{
   box-sizing: border-box;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 body{
   line-height: 1.5;
@@ -154,6 +155,10 @@ body{
 }
 #hi{
   font-size: 80px;
+}
+
+.banner1-content-inner #btn1:hover{
+  transform: scale(1.1);
 }
 
 
