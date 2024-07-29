@@ -16,7 +16,7 @@ p{
         color: aliceblue;
     }
     p{
-        margin-right: 100px;
+        margin-right: 90px;
         margin-left: -1px;
         margin-top: 20px; 
          }
@@ -36,4 +36,21 @@ p{
     margin-left: 5px;
     margin-top: 5%;
 }
-
+.card {
+    overflow: hidden; 
+}
+.card-img-top {
+        transition: transform 0.2s;
+    }
+    .card-img-top:hover {
+        transform: scale(1.1); 
+        
+    }
+     
+     span .btn{
+        
+        margin-top: 30px;
+        background-color: green;
+        border-radius: 5px;
+        border-color: aliceblue;
+     }

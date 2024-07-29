@@ -34,6 +34,16 @@
     margin-left: 30px;
     row-gap: 15px;
 }
+.card {
+    overflow: hidden; 
+}
+.card-img-top {
+        transition: transform 0.2s;
+    }
+    .card-img-top:hover {
+        transform: scale(1.1); 
+        
+    }
 
 
     
