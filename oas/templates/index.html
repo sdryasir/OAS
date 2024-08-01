@@ -1,56 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load static %}   
 <head>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> OAS </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'ok.css' %}">
 </head>
 {% load static %}
-<body bgcolor="black">
+<body bgcolor="white">
  <h1 style="font-size: 50px; text-align: center;font-style: Ebrima;color: white"><b>What Client Say</b></h1>
  <p style="text-align: center; font-size: 30px;color:grey">Explore on the world's best & largest Bidding marketplace with our<br> beautiful Bidding products. We want to be a part of your smile, success<br> and future growth.</p>   
-
-<div class="owl-carousel owl-theme">
-    <div class="item"><img src="{% static 'pg.png' %}" width=260></div>
-    <div class="item"><img src="{% static 'img2.png' %}" width=260></div>
-    <div class="item"><img src="{% static 'img3.png' %}" width=255></div>
-    <div class="item"><img src="{% static 'img4.png' %}" width=260></div>
-    <div class="item"><img src="{% static 'img5.png' %}" width=260></div>
-    <div class="item"><img src="{% static 'img6.png' %}" width=255></div>
+<div class="container">
+    <div id="slider" class="owl-carousel">
+        <div class="content-area">
+            <div class="content">
+                <div class="img-area"><img src="{% static 'img1.png' %}"></div>
+                <P style="color: white;"> The Pacific Grove Chamber of<br> Commerce would like to thank elab<br> Communications and Mr. Will Elkadi<br> for all the efforts that assisted me<br> nicely manners. </p>
+                <h5 style="color: white;"> Jhon Martin </h5>
+                <p style="color: white;"> CEO </p>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="content">
+                <div class="img-area"><img src="{% static 'img2.png' %}"></div>
+                <p style="color: white;"> Nullam cursus tempor ex. Nullam<br> nec dui id metus consequat congue<br> ac at est. Pellentesque blandit neque<br> at elit tristique tincidunt. </p>
+                <h5 style="color: white;"> Jamie Anderson </h5>                
+                <p style="color: white;"> Manager </p>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="content">
+                <div class="img-area"><img src="{% static 'img3.png' %}"></div>
+                <P style="color: white;"> Maecenas vitae porttitor neque, ac<br> porttitor nunc. Duis venenatis lacinia<br> libero. Nam nec augue ut nunc<br> vulputate tincidunt at suscipit nunc.</p>
+                <h5 style="color: white;"> Jhon Peter </h5>    
+                <p style="color: white;"> Area Manager </p>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="content">
+                <div class="img-area"><img src="{% static 'img1.png' %}"></div>
+                <P style="color: white;"> The Pacific Grove Chamber of<br> Commerce would like to thank elab<br> Communications and Mr. Will Elkadi<br> for all the efforts that assisted me<br> nicely manners. </p>
+                <h5 style="color: white;"> Jhon Martin </h5>
+                <p style="color: white;"> CEO </p>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="content">
+                <div class="img-area"><img src="{% static 'img2.png' %}"></div>
+                <P style="color: white;"> Nullam cursus tempor ex. Nullam<br> nec dui id metus consequat congue<br> ac at est. Pellentesque blandit neque<br> at elit tristique tincidunt. </p>
+                <h5 style="color: white;"> Jamie Anderson </h5>
+                <p style="color: white;"> Manager </p>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="content">
+                <div class="img-area"><img src="{% static 'img3.png' %}"></div>
+                <P style="color: white;"> Maecenas vitae porttitor neque, ac<br> porttitor nunc. Duis venenatis lacinia<br> libero. Nam nec augue ut nunc<br> vulputate tincidunt at suscipit nunc.</p>
+                <h5 style="color: white;"> Jhon Peter </h5>
+                <p style="color: white;"> Area Manager </p>
+            </div>
+        </div>
+    </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+</script>
 <script>
- $('.owl-carousel').owlCarousel({
+   $('#slider').owlCarousel({
     loop:true,
-    margin:10,
-    nav:true,
+    margin:15,
+    nav:false,
+    autoplay:true,
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:3
+            items:2
         },
         1000:{
-            items:5
+            items:3
         }
     }
 })
+     
 </script>
 <br>
 <h1 style="font-size: 50px; text-align: center;font-style: Ebrima;color: white"><b>Trusted By 500+ businesses</b></h1>
     <p style="text-align: center; font-size: 30px;color:grey"> Explore on the world's best & largest Bidding marketplace with our beautiful Bidding <br> products. We want to be a part of your smile, success and future growth.</p>
-    <img src="{% static 'img8.png' %}" width=1680>
+    <img src="{% static 'img15.png' %}" alt="" srcset="" width="1340px">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>
-
 
 
 
