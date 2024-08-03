@@ -2,9 +2,11 @@
        body{
         background-color: black;
        }
-        h1 { text-align: center;
+        h1 { 
+        text-align: center;
         margin-top:5% ;
-    color:cornsilk; }
+        color:cornsilk; 
+}
         p {
              text-align: center;
              margin-top: 1%;
@@ -22,10 +24,12 @@
     }
     a{
         background-color: green;
-        border-color: aliceblue;
+        border-color:green ;
+        margin-top: -40px;
     }
    svg{
     color: aliceblue;
+    margin-top: -40px;
 
    }
 }
@@ -35,7 +39,9 @@
     row-gap: 15px;
 }
 .card {
-    overflow: hidden; 
+    overflow: hidden;
+    border-color: black;
+     
 }
 .card-img-top {
         transition: transform 0.2s;
@@ -47,4 +53,3 @@
 
 
     
-

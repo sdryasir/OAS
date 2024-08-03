@@ -1,0 +1,79 @@
+
+    /* task3*/
+
+     
+    h1{
+        margin-top: 20px;
+        text-align: center;
+        color: aliceblue;
+    }
+    p{
+        margin-top: 20px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .card-body3{
+        background-color:black;
+        p{
+            margin-right: 120px;
+            color:aliceblue;
+            
+        }
+        h5{
+            margin-top: 10px;
+            color: aliceblue;
+        }
+        a{
+            
+            text-decoration: none;
+            
+        }
+        svg{
+            margin-left: 50px;
+            
+        }
+        
+    }
+    .card {
+        overflow: hidden; 
+    }
+    .card-img-top {
+            transition: transform 0.5s;
+        }
+        .card-img-top:hover {
+            transform: scale(1.1); 
+            
+        }
+        .card-img-wrapper {
+            position: relative;
+        }
+        .date-mark {
+            position: absolute;
+        text-size-adjust:bold ;
+        
+            top: 25px;
+            left: -10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            background-color:#32de84;
+            padding: 5px 15px;
+            font-size: 12px;
+            
+            
+            border-radius: 10px;
+            z-index: 10;
+        }
+        
+    
+        .date-mark svg {
+            margin-right: 5px; /* Spacing between icon and text */
+            width: 16px;
+            height: 16px;
+           margin-bottom: 5px;
+            fill: white;
+    
+        }
+        .bold-text {
+            font-weight:normal;
+        }
+    

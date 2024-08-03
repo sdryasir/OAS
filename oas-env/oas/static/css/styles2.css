@@ -1,6 +1,6 @@
-body{
-    background-color: #0d0c0a;;
-}
+
+
+
 h1{
     text-align: center;
     margin-top: 5%;
@@ -26,7 +26,7 @@ p{
              }
              a{
                 background-color: green;
-                border-color: aliceblue;
+                border-color: green;
              }
     
 }
@@ -48,9 +48,14 @@ p{
     }
      
      span .btn{
+        width: 100px;
+        align-items:center;
         
         margin-top: 30px;
+        margin-left:40px ;
         background-color: green;
         border-radius: 5px;
-        border-color: aliceblue;
+        border-color: green;
      }
+
+ 
