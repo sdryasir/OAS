@@ -34,13 +34,16 @@
    }
 }
 .row{
-    justify-content: space-between;
+    align-content: space-between;
     margin-left: 30px;
     row-gap: 15px;
+    
 }
 .card {
     overflow: hidden;
     border-color: black;
+    
+    
      
 }
 .card-img-top {
