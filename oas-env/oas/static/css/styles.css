@@ -1,58 +1,181 @@
-
-       body{
-        background-color: black;
-       }
-        h1 { 
-        text-align: center;
-        margin-top:5% ;
-        color:cornsilk; 
-}
-        p {
-             text-align: center;
-             margin-top: 1%;
-             margin-bottom: 40px;
-             color:cornsilk ; 
-         }
-.card-body{
+body{
     background-color: black;
-    p{
-        margin-right: 100px;
-        margin-left: -1px;
-    }
-    h5{
-        color:wheat ;
-    }
-    a{
-        background-color: green;
-        border-color:green ;
-        margin-top: -40px;
-    }
-   svg{
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
     color: aliceblue;
-    margin-top: -40px;
+}
+p{
+    text-align: center;
+    color:aliceblue;
+    margin-bottom: 50px;
+}
+.card{
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
 
-   }
+.card img {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.card:hover img {
+    transform: scale(1.1); /* Adjust the scale as needed */
+}
+
+
+
+/* card1*/
+
+.card-1 .card-text{
+    margin-right: 100px;
+    margin-left: -50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: aliceblue;
+
+}
+.card-1 .btn-primary{
+   background-color:green;
+   border: none;
+   margin-bottom: 10px;
+}
+.card-1 .amount{
+    font-weight: bold;
+}
+.card-1 .card-title{
+    color: aliceblue;
+    margin-top: 15px;
+    
+}
+.card-1 .bi-share-fill{
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 170px;
+
 }
 .row{
-    align-content: space-between;
-    margin-left: 30px;
-    row-gap: 15px;
-    
+    row-gap: 25px;
 }
-.card {
-    overflow: hidden;
-    border-color: black;
-    
-    
-     
+  .btn-primary-2{
+    background-color:green;
+    border: none;
+    margin-left:500px ;
+    color: aliceblue;
+    margin-top: 50px;
+   width: 150px; height: 40px;
+   border-radius: 5px;
+   font-size: 20px;
+
 }
-.card-img-top {
-        transition: transform 0.2s;
+
+/*card2*/
+
+.card-2 .tag{
+    color: dimgray;
+    margin-right:170px ;
+    margin-bottom: 20px;
+}
+.card-2 .card-title{
+    color: aliceblue;
     }
-    .card-img-top:hover {
-        transform: scale(1.1); 
+    .card-2 .card-text{
+    
+        margin-right: 170px;
+    }
+    .card-2 .amount{
+        font-weight: bold;
+         }
+         .card-2 .btn-primary{
+            margin-top:-10px;
+            background-color: green;
+            border: none;
+         }
+         .card-2 .bi-share-fill{
+            color: aliceblue;
+            font-size: 20px;
+            margin-left: 170px;
+            
+         }
+         .btn-primary-3{
+            background-color:green;
+            border: none;
+            color: aliceblue;
+            margin-top: 50px;
+            margin-left:20px;
+            width: 150px; height: 40px;
+            font-size: 20px;
+            border-radius: 5px;
+         }
+         .card-2  .profile-pic{
+            width: 10px; /* Size of the profile picture */
+            height: 10px;
+         }
+
+         /*card3*/
+         .card-3 .dp-img{
+            height: 30px;
+            width: 30px;
+            border-radius: 20px;
+            margin-right: 7px;
+        margin-left: -3px;
+        margin-top: 30px;
         
-    }
+         }
+         .card-3 .card-text{
+            color: aliceblue;
+            margin-top: 30px;
+         }
+         .card-3 .card-title{
+            color: aliceblue;
+         }
+         .card-3 .text-link{
+            text-decoration: none;
+         }
+         .card-3 .card-img-wrapper{
+            position: relative;
+         }
 
+         
+        
+         .date-mark {
+            position: absolute;
+            top: 10px;
+            margin-left: 1px;
+            margin-top: 5px;
+            left: 10px;
+            background-color: aqua;
+            color: white;
+            padding: 5px 10px;
+            font-size: 12px;
+            border-radius: 5px;
 
-    
+            display: flex;
+            align-items: center;
+            z-index: 10;
+            border: none;
+        }
+        .date-mark svg {
+            margin-right: 5px;
+            width: 16px;
+            height: 16px;
+            fill: white;
+        }
+        .card-3 .bi-chat-left-text{
+            color: aliceblue;
+            font-style: normal;
+            margin-left: 90px;
+            margin-top: 35px;
+        }
+        .card-3 .comments{
+            text-decoration: none;
+            margin-top: 25px;
+
+        }
