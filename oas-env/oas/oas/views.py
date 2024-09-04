@@ -139,4 +139,6 @@ def browseproduct(request):
         "totalpages":totalpages 
     }
     return render(request,'browse.html',data)
-
+    def emai():
+        return
+    
