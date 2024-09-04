@@ -6,6 +6,7 @@ class cards(models.Model):
     text = models.TextField()
     price = models.IntegerField()
     image = models.FileField(upload_to="browseproduct/",null=True)
+    category = models.CharField(max_length=60)
 
 
 # Create your models here.
